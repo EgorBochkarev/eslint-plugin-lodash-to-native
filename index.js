@@ -16,8 +16,6 @@ var requireIndex = require("requireindex");
 
 
 // import all rules in lib/rules
-const test = requireIndex(__dirname + "/lib/rules");
-console.log(test);
 module.exports.rules = requireIndex(__dirname + "/lib/rules");
 
 
