@@ -9,14 +9,13 @@
   "author": "Egor B",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "node ./tests/lib/rules/map"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "mocha": "^3.1.2"
+    "eslint": "^6.8.0"
   },
   "engines": {
     "node": ">=0.10.0"
